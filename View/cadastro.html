@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>CRUD</title>
+  </head>
+  <body bgcolor="silver">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-12 mt-5">
+                <h1 class="text-center">Cadastro de usuário</h1>
+                <hr style="height: 1px;color: black;background-color: black;">
+            </div>
+        </div>
+    
+            <div class="col-md5 mx-auto">
+                <form action="../Controller/insere_usuario.php" method="post">
+                    <div class="form-group">
+                        <label for="">Nome</label>
+                        <input type="text" name="nome" required class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Email</label>
+                        <input type="email" name="email" required class="form-control" >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Telefone</label>
+                        <input type="phone" name="telefone" required class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Endereço</label>
+                        <textarea name="endereco" id="endereco" required cols="" rows="3" class="form-control"></textarea>
+                        <hr style="height: 1px;color: black;background-color: black;">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Usuario</label>
+                        <input type="text" name="usuario" required class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Senha</label>
+                        <input type="password" name="senha" required class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Repita a senha</label>
+                        <input type="password" name="senha2" required class="form-control">
+                    </div>
+
+
+                    <div class="form-group" align="right">
+                        <button type="submit" name="submit" class="btn btn-primary">Cadastrar</button>
+                        
+                    </div>
+
+                    <div class="form-group" align="center">
+                    <a href="login.html" align="center"> Já é cadastrado ? Faça login ! </a>
+                    </div>
+                </form>
+    </div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    !-->
+  </body>
+</html>
