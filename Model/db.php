@@ -50,7 +50,7 @@ class Model
 
                 if ($sql = $this->conexao->query($query)) {
                     echo "<script>alert('Dados salvos!');</script>";
-                    echo "<script>window.location.href='../View/login.html';</script>";
+                    echo "<script>window.location.href='../View/login2.html';</script>";
                 } else {
                     echo "<script>alert('Falha');</script>";
                     echo "<script>window.location.href='../View/cadastro.html';</script>";
