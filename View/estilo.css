@@ -5,8 +5,16 @@ body{
 }
 
 .form-group{
-    background-color: whitesmoke;
+    background-color: none;
     padding: 10px;
-    
+    color: white;
+}
 
+a{
+    text-decoration: none;
+}
+
+button{
+    color: black;
+    background-color: none;
 }
