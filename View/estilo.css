@@ -5,7 +5,7 @@ body{
 }
 
 .form-group{
-    background-color: whitesmoke;
+    background-color: none;
     padding: 10px;
     width: 500px;
     
@@ -15,4 +15,14 @@ body{
 
 .form-group a{
     text-decoration: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    color: black;
+    background-color: none;
 }
